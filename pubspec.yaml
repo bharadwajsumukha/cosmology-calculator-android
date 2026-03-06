@@ -1,0 +1,74 @@
+name: my_app
+description: "A sophisticated cosmology calculator based on the FLRW metric."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# All packages must be listed here, under the top-level 'dependencies' key.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  fl_chart: ^0.68.0
+  flutter_math_fork: ^0.7.2
+  get_it: ^7.7.0
+
+  # Add these new packages for file generation and handling
+  pdf: ^3.7.4
+  csv: ^5.0.1
+  path_provider: ^2.0.11
+  share_plus: ^7.0.2
+  
+  # This is the correct location for the animations package
+  animations: ^2.0.11
+
+  # Add this line
+  url_launcher: ^6.3.1 
+
+  # Add this new package for rendering Markdown
+  markdown: ^7.3.0
+  flutter_html: ^3.0.0
+  flutter_markdown: ^0.7.1
+
+  # This is the correct location for cupertino_icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # Add this line
+  flutter_launcher_icons: ^0.13.1
+
+# This section is ONLY for Flutter-specific configurations like assets and fonts.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icon/
+    - README.md
+    - assets/fonts/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+
+# Add this entire section at the bottom of the file
+flutter_launcher_icons:
+  android: true
+  ios: true
+  windows:
+    generate: true
+    icon_path: "assets/icon/icon.png" 
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#0D1117" 
+  adaptive_icon_foreground: "assets/icon/icon.png"
