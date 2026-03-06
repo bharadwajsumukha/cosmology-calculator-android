@@ -71,28 +71,14 @@ The calculator has been rigorously tested against standard cosmological benchmar
 | Angular Diameter Distance (Mpc) |      1,700.5   |   1,700.6  |  99.99%  |
 | Lookback Time (Gyr)             |         7.950  |      7.970 |   99.7%  |
 
-## Installation & Usage
+## Download Android App
 
-### **Prerequisites**
+You can directly download the Android application from the GitHub release:
 
-- Flutter SDK (≥3.0.0)
-- Dart SDK
-- Android Studio / VS Code (recommended)
+Download APK:
+https://github.com/bharadwajsumukha/cosmology-calculator-android/releases
 
-### **Setup**
-
-git clone [repository-url]
-cd cosmology_calculator
-flutter pub get
-flutter run
-
-
-### **Building APK**
-
-flutter build apk --release
-
-
-The APK will be generated in `build/app/outputs/flutter-apk/app-release.apk`
+Install the APK on your Android device and start using the cosmology calculator.
 
 ## Usage Guide
 
@@ -114,26 +100,12 @@ The APK will be generated in `build/app/outputs/flutter-apk/app-release.apk`
 
 This calculator serves as both a research tool and educational resource, making advanced cosmological calculations accessible to:
 
-- Graduate students in astrophysics  
-- Researchers in observational cosmology  
+- Students learning cosmology
+- Researchers needing quick cosmological calculations 
 - Educators teaching modern cosmology  
-- Amateur astronomers exploring the universe  
+- Amateur astronomers exploring the universe   
 
-## Future Enhancements
-
-- **Extended Models** - Dark energy equation of state variations  
-- **Data Export** - CSV/JSON output for external analysis  
-- **Parameter Fitting** - Observational data integration  
-- **Advanced Plotting** - 3D visualizations and parameter space exploration  
-
-## Contributing
-
-This project welcomes contributions from the cosmology and Flutter communities. Areas for improvement include:
-
-- Additional cosmological models  
-- Enhanced numerical precision  
-- UI/UX improvements  
-- Educational content expansion  
 
 **Built with precision for the cosmos** 🌌  
 *Bringing professional cosmological calculations to everyone's fingertips*  
+
