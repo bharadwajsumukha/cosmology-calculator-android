@@ -15,8 +15,8 @@ A sophisticated Flutter-based cosmological calculator that implements the Friedm
 
 ### 🌌 Universe Models
 
-* **Flat ΛCDM** – Standard cosmological model (Ωₖ = 0)
-* **Open Universe** – Negatively curved spacetime (Ωₖ > 0)
+* **Flat $\Lambda$CDM** – Standard cosmological model ($\Omega_k = 0$)
+* **Open Universe** – Negatively curved spacetime ($\Omega_k > 0$)
 * **General Model** – User-defined curvature parameters
 * **Einstein–de Sitter** – Matter-dominated universe comparison
 * **Empty Universe** – Vacuum-dominated model for reference
@@ -78,7 +78,7 @@ $$
 
 ### Curvature Effects
 
-Proper transverse distances are computed using the standard curvature-dependent relations for $\Omega_k \neq 0$.
+Proper transverse distances are computed using the standard curvature-dependent relations for $\Omega_k \ne.
 
 ---
 
@@ -116,7 +116,7 @@ Install the APK on your Android device and start using the cosmology calculator.
 
 # Usage Guide
 
-1. Input Parameters – Enter cosmological parameters (H₀, Ωₘ, ΩΛ, etc.)
+1. Input Parameters – Enter cosmological parameters ($H_0$, $\Omega_m$, $\Omega_\Lambda$, etc.)
 2. Select Model – Choose between Flat, Open, or General universe
 3. Set Redshift – Specify the target redshift for calculations
 4. Submit – Generate comprehensive results and visualizations
