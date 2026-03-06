@@ -44,14 +44,37 @@ A sophisticated Flutter-based cosmological calculator that implements the Friedm
 - Proper handling of curved spacetime geometries
 - Benchmark-validated against standard cosmology calculators
 
-### **Core Physics**
+### Core Physics
 
-The app implements the standard ΛCDM formulations:
+The calculator implements the standard $\Lambda$CDM cosmological framework.
 
-- **Hubble Parameter**: E(z) = √[Ωᴿ(1+z)⁴ + Ωₘ(1+z)³ + Ωₖ(1+z)² + Ωᴧ]
-- **Age Integration**: t₀ = (1/H₀) ∫₀^∞ dz'/[(1+z')E(z')]
-- **Distance Integration**: Dᶜ = Dₕ ∫₀^z dz'/E(z')
-- **Curvature Corrections**: Proper transverse distance calculations for Ωₖ ≠ 0
+- **Dimensionless Hubble Parameter**
+
+\[
+E(z) = \sqrt{\Omega_r(1+z)^4 + \Omega_m(1+z)^3 + \Omega_k(1+z)^2 + \Omega_\Lambda}
+\]
+
+- **Age of the Universe**
+
+\[
+t_0 = \frac{1}{H_0}\int_0^{\infty} \frac{dz'}{(1+z')E(z')}
+\]
+
+- **Comoving Distance**
+
+\[
+D_c = D_H \int_0^z \frac{dz'}{E(z')}
+\]
+
+where
+
+\[
+D_H = \frac{c}{H_0}
+\]
+
+- **Curvature Effects**
+
+Proper transverse distances are computed using the standard curvature-dependent relations for $\Omega_k \neq 0$.
 
 ### **Architecture**
 
@@ -102,8 +125,16 @@ This calculator serves as both a research tool and educational resource, making 
 
 - Students learning cosmology
 - Researchers needing quick cosmological calculations 
+- Researchers needing quick cosmological calculations
 - Educators teaching modern cosmology  
 - Amateur astronomers exploring the universe   
+
+## Future Enhancements
+
+- **Extended Models** - Dark energy equation of state variations  
+- **Data Export** - CSV/JSON output for external analysis  
+- **Parameter Fitting** - Observational data integration  
+- **Advanced Plotting** - 3D visualizations and parameter space exploration  
 
 
 **Built with precision for the cosmos** 🌌  
